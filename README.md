@@ -14,103 +14,145 @@ Welcome to the Java Full Stack Course Repository! Here you will find a collectio
 
 Here are some of the programs included in this repository:
 
-- `A.java`
-- `AbstractDemo.java`
-- `AccessModifiresExample.java`
-- `AccessOuterMainExample.java`
-- `AddBinaryNumber.java`
-- `Animal.java`
-- `AnimalSound.java`
-- `ArrayCopy.java`
-- `ArrayInJava.java`
-- `ArrayInJava2.java`
-- `ArrayInJava3.java`
-- `ArrayInJava4.java`
-- `ArrayInJavaCp.java`
-- `ArrayJavaClone.java`
-- `B.java`
-- `BankAccount.java`
-- `BankAccount1.java`
-- `BankMain.java`
-- `Book.java`
-- `BoxingUnboxingAllObjects.java`
-- `BoxingUnbpxingExample.java`
-- `Calculator1.java`
-- `Calculator2.java`
-- `Calculator3.java`
-- `CarExample.java`
-- `CharToAscii.java`
-- `Circle.java`
-- `ComparisonProgram.java`
-- `Cricket.java`
-- `CubeProgram.java`
-- `DemoClass.java`
-- `DemoConstructor.java`
-- `DemoEnumerationExample.java`
-- `DemoExample.java`
-- `Demobitwise.java`
-- `Employee.java`
-- `Employee2.java`
-- `EmployeeMain.java`
-- `EmployeeMainExample.java`
-- `EncapsulationExample.java`
-- `FirstProg.java`
-- `ForEachprog.java`
-- `InnerMainExample.java`
-- `LampExample.java`
-- `MainAB.java`
-- `MainDemo.java`
-- `MainInstanceClass.java`
-- `MinBoolean.java`
-- `MinFloat.java`
-- `MinNumberExample.java`
-- `MultiDimArray.java`
-- `MyCar.java`
-- `NaturalNoProgarm.java`
-- `OperationExample.java`
-- `ParentSuperDemo1.java`
-- `Person.java`
-- `PosNegProgram.java`
-- `Rectangle.java`
-- `RightMostSameExample.java`
-- `Sagar.java`
-- `SavingAccount.java`
-- `SecondProgram.java`
-- `Shape.java`
-- `Shape1.java`
-- `Shape2.java`
-- `Sports1.java`
-- `StaticBlockExample.java`
-- `StaticDemo.java`
-- `StaticInnerMainExample.java`
-- `SumAvgProgram.java`
-- `SumIntegerExample.java`
-- `SuperDemo.java`
-- `SwapExample.java`
-- `SwitchCaseDayProgram.java`
-- `ThisClass.java`
-- `ThisClass1.java`
-- `Typecasting.java`
-- `arrayAvg.java`
-- `autoEmailScript.py`
-- `autoFileMgmt.py`
-- `dataProcessScript.py`
-- `demoArray.java`
-- `demoDoWhile.java`
-- `demoIF.java`
-- `demoLoop.java`
-- `demoOperator.java`
-- `demoWhile.java`
-- `demopattrn.java`
-- `demoternary.java`
-- `getUser.java`
-- `incrDecr.java`
-- `lowHighCase.java`
-- `oprator1st.java`
-- `shipping.java`
-- `studentExample.java`
-- `sumArray.java`
-- `switchCoffee.java`
+A.java
+AbstractDemo.java
+AccessModifiresExample.java
+AccessOuterMainExample.java
+AddBinaryNumber.java
+Animal.java
+AnimalSound.java
+ArrayCopy.java
+ArrayInJava.java
+ArrayInJava2.java
+ArrayInJava3.java
+ArrayInJava4.java
+ArrayInJavaCp.java
+ArrayJavaClone.java
+ArrayList1.java
+ArrayListIteratorExample.java
+B.java
+BankAccount.java
+BankAccount1.java
+BankMain.java
+Book.java
+BoxingUnboxingAllObjects.java
+BoxingUnboxingExample.java
+Calculator1.java
+Calculator2.java
+Calculator3.java
+CarExample.java
+CharToAscii.java
+CharacterAtIndex.java
+Circle.java
+ComparatorExample2.java
+CompareStringToSequence.java
+ConcatStrings.java
+Cricket.java
+CubeProgram.java
+DayWeek.java
+DemoClass.java
+DemoConstructor.java
+DemoEnumerationExample.java
+DemoExample.java
+DemoReplace.java
+Demobitwise.java
+DequeueExample.java
+Employee.java
+Employee2.java
+EmployeeComparator.java
+EmployeeIdComprator.java
+EmployeeMain.java
+EmployeeMainExample.java
+EmployeeNameComparator.java
+EmployeeSalaryComparator.java
+EncapsulationExample.java
+EndsWithExample.java
+Example.java
+FileReadExample.java
+FirstProg.java
+ForEachprog.java
+HashSetExample.java
+InnerMainExample.java
+InputMismatchExample.java
+LampExample.java
+LinkedHashMapExample.java
+LinkedHashSetExample.java
+LinkedListExample.java
+Main1.java
+Main2.java
+Main3.java
+Main4.java
+Main5.java
+MainAB.java
+MainDemo.java
+MainInstanceClass.java
+MapExample.java
+MinBoolean.java
+MinFloat.java
+MinNumberExample.java
+MultiDimArray.java
+MyCar.java
+NaturalNoProgarm.java
+OddNumberChecker.java
+OperationExample.java
+ParentSuperDemo1.java
+PatternString.java
+Person.java
+PosNegProgram.java
+Practicle.java
+PrimeNumber.java
+PriorityQueueExample.java
+Rectangle.java
+RegEx.java
+RightMostSameExample.java
+Sagar.java
+SavingAccount.java
+SecondProgram.java
+SetExample.java
+Shape.java
+Shape1.java
+Shape2.java
+Sports1.java
+StaticBlockExample.java
+StaticDemo.java
+StaticInnerMainExample.java
+StringContainSequence.java
+StringExample.java
+StringException.java
+StringWithCharArray.java
+Student.java
+SumAvgProgram.java
+SumIntegerExample.java
+SuperDemo.java
+SwapExample.java
+SwitchCaseDayProgram.java
+ThisClass.java
+ThisClass1.java
+ThrowsException.java
+TreeMapExample.java
+TreeSetEx.java
+TreeSetExample.java
+Typecasting.java
+VectorExample.java
+VotingApplication.java
+arrayAvg.java
+demoArray.java
+demoDoWhile.java
+demoIF.java
+demoLoop.java
+demoOperator.java
+demoWhile.java
+demopattrn.java
+demoternary.java
+getUser.java
+incrDecr.java
+lowHighCase.java
+oprator1st.java
+shipping.java
+studentExample.java
+sumArray.java
+switchCoffee.java
+
 
 ## Usage
 
