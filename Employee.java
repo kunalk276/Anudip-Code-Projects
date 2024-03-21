@@ -1,63 +1,64 @@
+package com.sort;
 
-/*Q. Write a Java program to create a class called "Employee" with a name, job title, and salary attributes, and methods to calculate and update salary.*/
+public class Employee   // method
+{
+	private int empId;   // data member   private ()
+	private String name;  // data member
+	private double salary;  // data member
+	
+	
+	public Employee(int empId, String name, double salary) //paramerterize constructor
+	{
+		super();
+		this.empId = empId;
+		this.name = name;
+		this.salary = salary;
+	}
+
+	// Getter and setter method to get value from private data member  of class(Employee) can access in another class(EmployeIdComaprator)
+
+		public int getEmpId()
+		{
+			return empId;
+		}
 
 
-package demoClass;
+		public void setEmpId(int empId)
+		{
+			this.empId = empId;
+		}
 
-public class Employee {
-			String name;
-			String jobTitle;
-			double salary;
 
-    
-    public Employee(String name, String jobTitle, double salary) {       //  USING  Constructor
-        this.name = name;
-        this.jobTitle = jobTitle;      // .this is used here for the ---> refrence of a current class variable
-        this.salary = salary;
-    }
+		public String getName() 
+		{
+			return name;
+		}
 
-    
-    public String getName() {     //  Getter methods
-        return name;
-    }
 
-    public String getJobTitle() {
-        return jobTitle;
-    }
+		public void setName(String name) 
+		{
+			this.name = name;
+		}
 
-    public double getSalary() {
-        return salary;
-    }
 
-    
-    public double calculateAnnualSalary() {    // Method  calculate annual salary
-        return salary * 12;
-    }
+		public double getSalary() 
+		{
+			return salary;
+		}
 
-    
-    public void updateSalary(double newSalary) {   // Method  update the salary
-        salary = newSalary;
-        System.out.println("Salary updated for " + name + ": INR " + salary);
-    }
 
-    public static void main(String[] args) {
-        
-    	
-        Employee employee = new Employee("Kunal Kadam", "Software Engineer", 40000);
+		public void setSalary(double salary)
+		{
+			this.salary = salary;
+		}
 
-        
-        System.out.println("Employee Details:");                   // Print employee details
-        System.out.println("Name: " + employee.getName());
-        System.out.println("Job Title: " + employee.getJobTitle());
-        System.out.println("Salary: INR " + employee.getSalary());
-
-        
-        System.out.println("Annual Salary: INR " + employee.calculateAnnualSalary());     // Calculate and print annual salary
-
-        
-        employee.updateSalary(55000);  // Update the salary
-
-        
-        System.out.println("Updated Salary: INR " + employee.getSalary());      // Print updated salary
-    }
+	@Override
+	public String toString() 
+	{
+		return "Employee [empId=" + empId + ", name=" + name + ", salary=" + salary + "]";
+	}
+	
+	
+	
+	
 }
