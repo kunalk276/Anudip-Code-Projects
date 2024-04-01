@@ -13,7 +13,7 @@ Welcome to the Java Full Stack Course Repository! Here you will find a collectio
 ## Contents
 
 Here are some of the programs included in this repository:
-Here's the list with upload times and dates removed and serial numbers added:
+Here's the list with upload and serial numbers added:
 
 1. A.java  
 2. AbstractDemo.java  
