@@ -192,7 +192,7 @@ If you have any additional Java programs that you would like to contribute to th
 
 ## Support
 
-If you encounter any difficulties while working with these programs or have any questions related to the course material, feel free to open an issue in this repository. We are here to help!
+If you encounter any difficulties while working with these programs or have any questions related to the course material, feel free to open an issue in this repository. I am here to help!
 
 Credits:
 
