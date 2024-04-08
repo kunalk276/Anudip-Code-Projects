@@ -161,9 +161,6 @@ Here's the list with upload and serial numbers added:
 144. WaitNotifyExample.java  
 145. WriteExample.java  
 146. arrayAvg.java  
-147. autoEmailScript.py  
-148. autoFileMgmt.py  
-149. dataProcessScript.py  
 150. demoArray.java  
 151. demoDoWhile.java  
 152. demoIF.java  
