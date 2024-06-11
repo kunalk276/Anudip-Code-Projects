@@ -1,64 +1,82 @@
-package com.sort;
+package com.hibernatequery;
 
-public class Employee   // method
-{
-	private int empId;   // data member   private ()
-	private String name;  // data member
-	private double salary;  // data member
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+
+
+///*HQL - Hibernate Query Language */
+//@NamedQueries(
+//		
+//		{ 
+//			@NamedQuery(
+//					
+//					name="findEmployeeBYName",
+//					query="from Employee e where e.name=:name"
+//					
+//					   )
+//			
+//		
+//		}
+//
+//		)
+//
+
+
+
+
+@Entity
+@NamedQuery(name = "findEmployeeByName", query = "SELECT e FROM Employee e WHERE e.name = :name")
+public class Employee {
 	
+	@Id
+	private int id;
+	private String name;
+	private String job;
+	private int salary;
 	
-	public Employee(int empId, String name, double salary) //paramerterize constructor
-	{
+	public Employee() {
 		super();
-		this.empId = empId;
+		// TODO Auto-generated constructor stub
+	}
+
+	public Employee(int id, String name, String job, int salary) {
+		super();
+		this.id = id;
 		this.name = name;
+		this.job = job;
+		this.salary = salary;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getDept() {
+		return job;
+	}
+	public void setjob(String job) {
+		this.job = job;
+	}
+	public int getSalary() {
+		return salary;
+	}
+	public void setSalary(int salary) {
 		this.salary = salary;
 	}
 
-	// Getter and setter method to get value from private data member  of class(Employee) can access in another class(EmployeIdComaprator)
-
-		public int getEmpId()
-		{
-			return empId;
-		}
-
-
-		public void setEmpId(int empId)
-		{
-			this.empId = empId;
-		}
-
-
-		public String getName() 
-		{
-			return name;
-		}
-
-
-		public void setName(String name) 
-		{
-			this.name = name;
-		}
-
-
-		public double getSalary() 
-		{
-			return salary;
-		}
-
-
-		public void setSalary(double salary)
-		{
-			this.salary = salary;
-		}
-
 	@Override
-	public String toString() 
-	{
-		return "Employee [empId=" + empId + ", name=" + name + ", salary=" + salary + "]";
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", job=" + job + ", salary=" + salary + "]";
 	}
-	
-	
-	
-	
+
 }
